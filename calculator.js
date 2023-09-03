@@ -113,6 +113,7 @@ buttons.forEach(button => {
       }
 
       // Handle division by zero error
+      console.log(result);
       if (result === undefined) {
         alert("Can't divide by zero");
         clearScreen();
@@ -182,6 +183,7 @@ function operate(operator, a, b) {
     case '/':
       if (b === 0) {
         result = undefined;
+        return result;
       } else {
         result = divide(a, b);
       }
