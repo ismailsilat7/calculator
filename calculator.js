@@ -143,7 +143,7 @@ function clearScreen() {
   operator = '';
   result = '';
   inputScreen.textContent = '';
-  resultScreen.textContent = '0';
+  resultScreen.textContent = '';
   lastButton = '';
 }
 
